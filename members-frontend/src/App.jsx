@@ -4,7 +4,7 @@ import Login from "./Login";
 import Register from "./Register";
 
 // 환경변수 사용 (없으면 기본값)
-const API_BASE = import.meta.env.VITE_API_BASE || "http://43.203.217.116:5000";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://app.frodo.kr:5000";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

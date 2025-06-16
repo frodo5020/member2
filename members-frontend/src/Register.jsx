@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 // 환경 변수에서 API 주소 불러오기 (없으면 기본값 사용)
-const API_BASE = import.meta.env.VITE_API_BASE || "http://43.203.217.116:5000";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://app.frodo.kr:5000";
 
 function Register() {
   const [form, setForm] = useState({ username: "", password: "" });
